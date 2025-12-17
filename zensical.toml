@@ -305,8 +305,11 @@ text = "Assistant"
 [project.extra]
 # homepage = "https://elevatedsensors.com"
 
-# we override nav to have an icon that's different from the main logo.
+# we override 'partial/nav' to have an icon that's different from the main logo.
 drawer_icon = "images/favicon.png"
+
+# we override 'block/htmltitle' to have a site title separate from site_name
+site_title = "Elevated Sensors Documentation"
 
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"

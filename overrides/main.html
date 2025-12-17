@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+<!-- CUSTOM Site title: use site_title instead of site_name for html title -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.extra.site_title }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.extra.site_title }}</title>
+  {% else %}
+    <title>{{ config.extra.site_title }}</title>
+  {% endif %}
+{% endblock %}
