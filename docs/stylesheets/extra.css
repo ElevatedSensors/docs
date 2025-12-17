@@ -1,4 +1,34 @@
+/* Custom color overrides */
 :root  > * {
-  --md-primary-fg-color:        #FFB700; /* Elevated Sensors Yellow */
-  --md-accent-fg-color:         #FFB700; /* Elevated Sensors Yellow */
+  --md-primary-fg-color:        #FFB700; 	/* Elevated Sensors Yellow */
+  --md-accent-fg-color:         #FFB700; 	/* Elevated Sensors Yellow */
 }
+
+/* Nudge the title text down a bit to match logo vertical center */
+  .md-header__title {
+    padding-top: 0.15rem !important;
+  }
+
+/* Always show the logo in the header, even on mobile */
+.md-header__button.md-logo {
+	display: flex !important;  				/* Override the theme's media query hide */
+}
+
+/* Mobile-only adjustments (when hamburger/drawer is visible) */
+@media screen and (max-width: 1220px) {  	/* Zensical/Material drawer breakpoint */
+  /* Tighten the logo button itself */
+  .md-header__button.md-logo {
+    padding: 0 !important;  				/* Less horizontal padding */
+    margin: 0 !important;               	/* Remove any margin completely */
+  }
+
+/* Nudge the title text down a bit to match logo vertical center */
+  .md-header__title {
+    padding-top: 0.1rem !important;
+  }
+
+  /* Limit logo size on mobile */
+  .md-header__button.md-logo img {
+    max-width: 8rem !important;
+    height: auto !important;
+  }
