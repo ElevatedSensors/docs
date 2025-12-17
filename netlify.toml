@@ -1,0 +1,2 @@
+[build]
+  command = "export CURRENT_YEAR=$(date +%Y) && python -m zensical build --clean"
