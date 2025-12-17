@@ -36,7 +36,7 @@ site_url = "https://docs.elevatedsensors.com/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 Elevated Sensors, LLC. All Rights Reserved.
+Copyright &copy; 2024 - <script>document.write(new Date().getFullYear())</script> Elevated Sensors, LLC. All Rights Reserved.
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -300,8 +300,8 @@ text = "Assistant"
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-[project.extra]
-homepage = "https://elevatedsensors.com"
+# [project.extra]
+# homepage = "https://elevatedsensors.com"
 
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
