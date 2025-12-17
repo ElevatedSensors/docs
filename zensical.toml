@@ -35,8 +35,10 @@ site_url = "https://docs.elevatedsensors.com/"
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
+# TODO update current year to use component system when it's ready
+# https://zensical.org/about/roadmap/#component-system
 copyright = """
-Copyright &copy; 2024 - !ENV CURRENT_YEAR Elevated Sensors, LLC. All Rights Reserved.
+Copyright &copy; 2024-2026 Elevated Sensors, LLC. All Rights Reserved.
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
