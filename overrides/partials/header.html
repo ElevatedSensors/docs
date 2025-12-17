@@ -1,3 +1,15 @@
+<!--
+    Purpose:
+    - Reorder mobile header on small screens: hamburger → logo → title ("Docs")
+    - Always show logo on mobile (overrides theme's default hide) (in extra.css)
+
+    Changelog:
+    2025-12-17: Initial override – reordered left-side elements for mobile consistency
+
+    When upstream changes:
+    - Compare against https://github.com/zensical/ui/blob/master/src/partials/header.html
+-->
+
 <!-- Determine classes -->
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}
@@ -13,6 +25,7 @@
     aria-label="{{ lang.t('header') }}"
   >
 
+<!-- CUSTOM: Hamburger moved before logo -->
     <!-- Hamburger menu first -->
     <label class="md-header__button md-icon" for="__drawer">
       {% set icon = config.theme.icon.menu or "material/menu" %}
@@ -29,6 +42,7 @@
     >
       {% include "partials/logo.html" %}
     </a>
+<!--END CUSTOM -->
 
     <!-- Header title -->
     <div class="md-header__title" data-md-component="header-title">

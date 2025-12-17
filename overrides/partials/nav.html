@@ -1,3 +1,14 @@
+<!--
+    Purpose:
+    - Display icon in drawer while still displaying logo on main page
+
+    Changelog:
+    2025-12-17: Initial override – display drawer_icon in drawer
+
+    When upstream changes:
+    - Compare against https://github.com/zensical/ui/blob/master/src/partials/nav.html
+-->
+
 {% import "partials/nav-item.html" as item with context %}
 
 <!-- Determine classes -->
@@ -25,7 +36,9 @@
       aria-label="{{ config.site_name }}"
       data-md-component="logo"
     >
+<!-- CUSTOM: drawer_icon instead of logo -->
       <img src="{{ config.theme.drawer_icon }}" alt="icon" />
+<!-- END CUSTOM -->
     </a>
     {{ config.site_name }}
   </label>
