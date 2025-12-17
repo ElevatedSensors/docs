@@ -81,9 +81,6 @@ extra_css = ["stylesheets/extra.css"]
 
 logo = "images/logo.avif"
 
-# we override nav to have an icon that's different from the main logo.
-drawer_icon = "images/favicon.png"
-
 # Zensical allows you to override specific blocks, partials, or whole
 # templates as well as to define your own templates. To do this, uncomment
 # the custom_dir setting below and set it to a directory in which you
@@ -305,8 +302,11 @@ text = "Assistant"
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-# [project.extra]
+[project.extra]
 # homepage = "https://elevatedsensors.com"
+
+# we override nav to have an icon that's different from the main logo.
+drawer_icon = "images/favicon.png"
 
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
