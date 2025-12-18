@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+<!-- CUSTOM Header content -->
+{% block extrahead %}
+  <script src="{{ config.extra.chatbot_js }}" async></script>
+{% endblock %}
+
 <!-- CUSTOM Site title: use site_title instead of site_name for html title -->
 {% block htmltitle %}
   {% if page.meta and page.meta.title %}

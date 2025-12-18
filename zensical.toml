@@ -311,6 +311,9 @@ drawer_icon = "images/favicon.png"
 # we override 'block/htmltitle' to have a site title separate from site_name
 site_title = "Elevated Sensors Documentation"
 
+# we override 'block/extrahead' to embed chatbot on all pages
+chatbot_js = "//code.tidio.co/tbjjwz3wix8mzuskyjwjdtcvxvgz8nry.js"
+
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
