@@ -303,6 +303,7 @@ text = "Assistant"
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
 [project.extra]
+# override default link to docs.elevatedsensors.com
 # homepage = "https://elevatedsensors.com"
 
 # we override 'partial/nav' to have an icon that's different from the main logo.
@@ -314,8 +315,19 @@ site_title = "Elevated Sensors Documentation"
 # we override 'block/extrahead' to embed chatbot on all pages
 chatbot_js = "//code.tidio.co/tbjjwz3wix8mzuskyjwjdtcvxvgz8nry.js"
 
-#[[project.extra.social]]
-#icon = "fontawesome/brands/github"
-#link = "https://github.com/user/repo"
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:support@elevatedsensors.com"
 
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/ElevatedSensors"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/instagram"
+link = "https://www.instagram.com/elevated_sensors"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://discord.gg/GGjvCqEY2j"
 
