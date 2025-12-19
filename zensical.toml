@@ -49,35 +49,35 @@ Copyright &copy; 2024-2026 Elevated Sensors, LLC. All Rights Reserved.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-    "markdown/index.md",
+    "index.md",
     {"Products" = [
         {"Bed Presence Mk1" = [
-            "markdown/products/bed-presence-mk1/index.md",
-            "markdown/products/bed-presence-mk1/getting-started.md",
-            "markdown/products/bed-presence-mk1/installation.md",
-            "markdown/products/bed-presence-mk1/calibration.md",
-            "markdown/products/bed-presence-mk1/sensor-details.md",
-            "markdown/products/bed-presence-mk1/maintenance.md",
-            "markdown/products/bed-presence-mk1/hardware-reference.md",
+            "products/bed-presence-mk1/index.md",
+            "products/bed-presence-mk1/getting-started.md",
+            "products/bed-presence-mk1/installation.md",
+            "products/bed-presence-mk1/calibration.md",
+            "products/bed-presence-mk1/sensor-details.md",
+            "products/bed-presence-mk1/maintenance.md",
+            "products/bed-presence-mk1/hardware-reference.md",
         ]},
     ]},
     {"Integrations" = [
         {"Home Assistant" = [
-            "markdown/integrations/home-assistant/index.md",
-            "markdown/integrations/home-assistant/adding-a-device.md",
-            "markdown/integrations/home-assistant/network-configuration.md",
-            "markdown/integrations/home-assistant/debugging.md",
-            "markdown/integrations/home-assistant/firmware-updates.md",
+            "integrations/home-assistant/index.md",
+            "integrations/home-assistant/adding-a-device.md",
+            "integrations/home-assistant/network-configuration.md",
+            "integrations/home-assistant/debugging.md",
+            "integrations/home-assistant/firmware-updates.md",
         ]},
         {"Hubitat" = [
-            "markdown/integrations/hubitat/index.md",
+            "integrations/hubitat/index.md",
         ]},
         {"Homey (Unofficial)" = [
-            "markdown/integrations/homey/index.md",
+            "integrations/homey/index.md",
         ]},
     ]},
     {"Guides" = [
-        "markdown/guides/index.md",
+        "guides/index.md",
     ]},
 ]
 
