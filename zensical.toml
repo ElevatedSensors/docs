@@ -79,6 +79,9 @@ nav = [
     {"Guides" = [
         "guides/index.md",
     ]},
+    {"Firmware" = [
+        "firmware/esp-web-tools.md",
+    ]},
     {"Temp Resources" = [
         "templates/examples.md",
         "templates/markdown.md",
