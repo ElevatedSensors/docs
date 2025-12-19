@@ -4,6 +4,11 @@
     --md-accent-fg-color:         #FFB700; 	/* Elevated Sensors Yellow */
 }
 
+/* Better contrast on primary button text */
+.md-button--primary {
+    color: #252629 !important;              /* Grey */
+}
+
 /* Nudge the title text down a bit to match logo vertical center */
 .md-header__title {
     padding-top: 0.15rem !important;
