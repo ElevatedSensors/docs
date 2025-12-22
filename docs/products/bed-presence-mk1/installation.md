@@ -18,7 +18,7 @@ If your bed uses a box spring, upholstered base, solid platform, foundation, or 
 you’ll need the [Universal Mounting Kit](https://www.elevatedsensors.com/products/bed-presence-universal-mounting-kit)
 to ensure reliable performance on your bed.
 
-## Base Install
+## Base Slat Install
 1. Remove mattress from bed frame.
 1. Select a bed slat in the torso region, where most of your weight will be applied to the bed (think about where you
 sit or lay in bed). If possible, select a bed slat that does not rock side to side.
