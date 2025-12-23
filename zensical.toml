@@ -335,6 +335,12 @@ text = "Assistant"
 #repo = "lucide/smile"
 
 # ----------------------------------------------------------------------------
+# Add extensions here
+# ----------------------------------------------------------------------------
+# [project.markdown_extensions.admonition]
+# [project.markdown_extensions.pymdownx.details]
+# [project.markdown_extensions.pymdownx.superfences]
+# ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
 [project.extra]
