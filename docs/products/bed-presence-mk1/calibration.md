@@ -25,6 +25,6 @@ getting false triggers, want to increase/decrease sensitivity, etc, continue to 
 If you find that the automatic values don't work well, you can manually set the ==Trigger Pressure==. Viewing the graph of
 the sensor pressure can help guide your desired pressure.
 
-- If using only once sensor, you can set the value slightly higher than the “non occupied” pressure.
+- If using only one sensor, you can set the value slightly higher than the “non occupied” pressure.
 - If using both sensors, make sure to set it high enough that someone on the opposite side of the bed doesn’t trigger it.
 
