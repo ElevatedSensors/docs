@@ -4,14 +4,15 @@ icon: lucide/rocket
 
 # Getting Started
 
-Purpose: fast path from unboxed → online
+Bed Presence Mk1 Description...
 
-Contains:
+## What You'll Need
+- Bed Presence Mk1
+- Universal Mounting Kit (if needed)
+- USB power supply and USB-C cable
+    - 5V @ 500mA
+- 2.4Ghz WiFi
 
-- Powering the device
-- Link to Provisioning (generic doc)
+## Provisioning
 
-“Next steps” links:
-- Add to Home Assistant
-- Add to Hubitat
-- Avoid duplicating provisioning steps here. Link instead.
+--8<-- "snippets/provisioning-esphome.md"
