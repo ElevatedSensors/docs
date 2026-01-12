@@ -1,6 +1,12 @@
 === "Home Assistant"
-    1. Connect the device to a power supply.
-    1. On your phone or computer, connect to the temporary WiFi network (e.g. ==bed-presence-xxxxxx==).
-    1. If your device prompts you to "stay connected", tap ==Yes==.
-    1. Open a web browser and navigate to ==http://192.168.4.1==.
-    1. Select the WiFi network you want the device to join, enter its password, and tap ==Save==.
+    1. In Home Assistant navigate to ==Settings== -> ==Devices & services==.
+    1. You should see a discovered item (e.g. ==Bed Presence xxxxxx==).
+
+        <img src="/assets/images/bp-discovered.png" class="rounded m-2" width="400"/>
+
+    1. Click ==Configure== then ==Submit==. If desired, specify an area and click ==Finish==.
+    1. Your device is ready to use!
+
+    !!! tip
+        Adoption into the ESPHome Builder is only necessary if you would like to take full control over the firmware on the
+        device (advanced). Note that you will loose access to OTA managed firmware updates directly from Elevated Sensors.

@@ -20,17 +20,35 @@ to ensure reliable performance on your bed.
 
 ## Base Slat Install
 1. Remove mattress from bed frame.
+
+    <img src="/assets/images/bed-presence-mk1/bp-install/1-slats.jpg" width="400"/>
+
 1. Select a bed slat in the torso region, where most of your weight will be applied to the bed (think about where you
 sit or lay in bed). If possible, select a bed slat that does not rock side to side.
 1. Orient the sensor with the circuit board/text facing up, and the thicker part of the device hanging over the edge of
 the bed slat. If the selected slat can move, you may need to screw it in place.
+
+    <img src="/assets/images/bed-presence-mk1/bp-install/2-place.jpg" width="400"/>
+
 1. Firmly attach the device using the provided screw. Pre-drill if necessary. For metal slats, use the included
 double-sided mounting square (it may be easier to insert the sensor strips before applying the adhesive square).
+
+    <img src="/assets/images/bed-presence-mk1/bp-install/3-attach.jpg" width="400"/>
+    <img src="/assets/images/bed-presence-mk1/bp-install/4-attached.jpg" width="400"/>
+
 1. Insert the sensor strips, then peel the adhesive backing and affix the sensors to the bed slat. For a temporary
 setup, sensors may be gently taped in place around bed slat. Do not cover end of sensors with tape, as there is a
 required vent opening. For King beds, consider using the included extension wires to space the sensors futher apart.
 Zip ties can be used to hold everything neatly in place.
+
+    <img src="/assets/images/bed-presence-mk1/bp-install/5-connect-sensor.jpg" width="400"/>
+    <img src="/assets/images/bed-presence-mk1/bp-install/6-sensor-adhesive.jpg" width="400"/>
+    <img src="/assets/images/bed-presence-mk1/bp-install/7-sensor-connected.jpg" width="400"/>
+
 1. Connect USB-C power.
+
+    <img src="/assets/images/bed-presence-mk1/bp-install/8-power.jpg" width="400"/>
+
 1. Carefully place the mattress back in place. This may require 2 people, as dragging the mattress across the sensors
 may dislodge them.
 
@@ -40,9 +58,18 @@ may dislodge them.
 
 1. Remove the flexible slat from the packaging and lay it on a flat surface such as a carpet.
 1. Align the main unit cradle under the center hole of the slat.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/1-align_cradle.jpg" width="400"/>
+
 1. Place the main unit into the cradle and loosely attach it using the blunt-tip screw.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/2-install_main_unit.jpg" width="400"/>
+
 1. Insert the sensor strips into the slots labeled “Left Sensor” and “Right Sensor”.
     - For the Twin Kit, attach the sensor to whichever side is most convenient based on your installation location.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/3-sensor_strips.jpg" width="400"/>
+
 1. Fully tighten the screw until the main unit is secure and no longer moves easily.
     - Do not overtighten, as this may strip the plastic.
 1. Peel off the adhesive backing on each sensor strip and firmly stick them down.
