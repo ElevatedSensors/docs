@@ -33,7 +33,8 @@ Assistant.
 <p class="button-row" align="center">
   <esp-web-install-button
     <!-- manifest="https://docs.elevatedsensors.com/firmware/bed-presence-mk1/latest/manifest.json" -->
-    manifest="https://elevatedsensorsdocs.netlify.app/products/bed-presence-mk1/manifest.json"
+    <!-- manifest="https://elevatedsensorsdocs.netlify.app/products/bed-presence-mk1/manifest.json" -->
+    manifest="https://github.com/ElevatedSensors/sensor-configs/releases/latest/download/bed-presence-mk1.manifest.json"
   >
     <button slot="activate" class="md-button md-button--primary">
       Connect
