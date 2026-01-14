@@ -1,5 +1,5 @@
 ---
-icon: lucide/hash
+icon: lucide/layers
 ---
 
 # Home
@@ -24,35 +24,35 @@ all Elevated Sensors devices.
 
 </div>
 
-## Integrations
+<!-- ## Integrations -->
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown> -->
 
--   __Home Assistant__
+<!-- -   __Home Assistant__ -->
 
-    ---
+<!--     --- -->
 
-	Native local integration via ESPHome
+<!-- 	Native local integration via ESPHome -->
 
-    [:octicons-arrow-right-24: Getting started](integrations/home-assistant)
+<!--     [:octicons-arrow-right-24: Getting started](integrations/home-assistant) -->
 
--   __Hubitat__
+<!-- -   __Hubitat__ -->
 
-    ---
+<!--     --- -->
 
-	Local integration via officially supported driver
+<!-- 	Local integration via officially supported driver -->
 
-    [:octicons-arrow-right-24: Getting started](integrations/hubitat)
+<!--     [:octicons-arrow-right-24: Getting started](integrations/hubitat) -->
 
--   __Homey__
+<!-- -   __Homey__ -->
 
-    ---
+<!--     --- -->
 
-	Local integration via community-support app
+<!-- 	Local integration via community-support app -->
 
-    [:octicons-arrow-right-24: Getting started](integrations/homey)
+<!--     [:octicons-arrow-right-24: Getting started](integrations/homey) -->
 
-</div>
+<!-- </div> -->
 
 ## Help
 <div class="grid cards" markdown>

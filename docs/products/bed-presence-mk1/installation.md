@@ -1,5 +1,5 @@
 ---
-icon: lucide/rocket
+icon: lucide/package
 ---
 
 # Installation
@@ -80,18 +80,39 @@ may dislodge them.
 
 1. Remove the flexible slat from the packaging and lay it on a flat surface such as a carpet.
 1. Align the main unit cradle under the center hole of the slat.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/1-align_cradle.jpg" width="400"/>
+
 1. Place the main unit into the cradle and loosely attach it using the blunt-tip screw.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/2-install_main_unit.jpg" width="400"/>
+
 1. Insert the sensor extension wires into the slots labeled “Left Sensor” and “Right Sensor”.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/4-extension_wires.jpg" width="400"/>
+
 1. Fully tighten the screw until the main unit is secure and no longer moves easily.
     - Do not overtighten, as this may strip the plastic.
 1. Connect the sensor strips to the ends of the extension wires.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/5-sensor_extensions.jpg" width="400"/>
+
 1. Fully extend the extension wires, then peel off the adhesive backing on each sensor strip and firmly stick them down.
     - Ensure the sensor strips are approximately centered top to bottom.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/6-sensor_adhesive.jpg" width="400"/>
+
 1. Gently install the sensor extension clips, inserting the thin side under the slat.
     - Extension wire/sensor strip connector should be approximately centered in the clip.
     - The connectors should click into a cavity, leaving the clips flush with the slat.
     - It’s okay if the slot in the slat does not perfectly align with the slot in the clip.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/7-extension_clip.jpg" width="400"/>
+
 1. Insert the included zip tie through the slot, tighten it, and trim excess.
+
+    <img src="/assets/images/bed-presence-mk1/bp-mount-install/8-zip_tie.jpg" width="400"/>
+
 1. Connect USB-C power. The unit is now ready to install on top of a box spring, upholstered base, solid platform, or foundation.
     - For beds with wooden slats or platforms, optionally use the provided wood screws to secure the ends of the flexible slat in place.
 

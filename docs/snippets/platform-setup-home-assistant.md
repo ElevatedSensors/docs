@@ -2,7 +2,7 @@
     1. In Home Assistant navigate to ==Settings== -> ==Devices & services==.
     1. You should see a discovered item (e.g. ==Bed Presence xxxxxx==).
 
-        <img src="/assets/images/bp-discovered.png" class="rounded m-2" width="400"/>
+        <img src="/assets/images/bed-presence-mk1/bp-discovered.png" class="rounded m-2" width="400"/>
 
     1. Click ==Configure== then ==Submit==. If desired, specify an area and click ==Finish==.
     1. Your device is ready to use!

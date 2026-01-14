@@ -56,36 +56,36 @@ nav = [
             "products/bed-presence-mk1/platform-setup.md",
             "products/bed-presence-mk1/installation.md",
             "products/bed-presence-mk1/calibration.md",
+            "products/bed-presence-mk1/faq.md",
             "products/bed-presence-mk1/sensor-details.md",
-            "products/bed-presence-mk1/maintenance.md",
             "products/bed-presence-mk1/hardware-reference.md",
         ]},
     ]},
-    {"Integrations" = [
-        {"Home Assistant" = [
-            "integrations/home-assistant/index.md",
-            "integrations/home-assistant/adding-a-device.md",
-            "integrations/home-assistant/network-configuration.md",
-            "integrations/home-assistant/debugging.md",
-            "integrations/home-assistant/firmware-updates.md",
-        ]},
-        {"Hubitat" = [
-            "integrations/hubitat/index.md",
-        ]},
-        {"Homey (Unofficial)" = [
-            "integrations/homey/index.md",
-        ]},
-    ]},
-    {"Guides" = [
-        "guides/index.md",
-    ]},
+    # {"Integrations" = [
+    #     {"Home Assistant" = [
+    #         "integrations/home-assistant/index.md",
+    #         "integrations/home-assistant/adding-a-device.md",
+    #         "integrations/home-assistant/network-configuration.md",
+    #         "integrations/home-assistant/debugging.md",
+    #         "integrations/home-assistant/firmware-updates.md",
+    #     ]},
+    #     {"Hubitat" = [
+    #         "integrations/hubitat/index.md",
+    #     ]},
+    #     {"Homey (Unofficial)" = [
+    #         "integrations/homey/index.md",
+    #     ]},
+    # ]},
+    # {"Guides" = [
+    #     "guides/index.md",
+    # ]},
     {"Firmware" = [
         "firmware/esp-web-tools.md",
     ]},
-    {"Temp Resources" = [
-        "templates/examples.md",
-        "templates/markdown.md",
-    ]},
+    # {"Temp Resources" = [
+    #     "templates/examples.md",
+    #     "templates/markdown.md",
+    # ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
