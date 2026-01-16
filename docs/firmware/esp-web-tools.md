@@ -32,8 +32,6 @@ Assistant.
 
 <p class="button-row" align="center">
   <esp-web-install-button
-    <!-- manifest="https://docs.elevatedsensors.com/firmware/bed-presence-mk1/latest/manifest.json" -->
-    <!-- manifest="https://elevatedsensorsdocs.netlify.app/products/bed-presence-mk1/manifest.json" -->
     manifest="https://github.com/ElevatedSensors/sensor-configs/releases/latest/download/bed-presence-mk1.manifest.json"
   >
     <button slot="activate" class="md-button md-button--primary">
@@ -53,13 +51,13 @@ Assistant.
 
 <!-- Update manifest based on selected device -->
 <script>
-  <!-- const manifestBase = "https://docs.elevatedsensors.com/firmware/"; -->
-  const manifestBase = "https://elevatedsensorsdocs.netlify.app/firmware/";
+  const manifestBase = "https://github.com/ElevatedSensors";
+  const manifestDir = "releases/latest/download";
 
   document.querySelectorAll('input[name="deviceType"]').forEach(radio =>
     radio.addEventListener("change", () => {
       const button = document.querySelector('esp-web-install-button');
-      button.manifest = `${manifestBase}${radio.value}/latest/manifest.json`;
+      button.manifest = `${manifestBase}/${radio.value}/${manifestDir}/${radio.value}.manifest.json`;
     }
   ));
 </script>
