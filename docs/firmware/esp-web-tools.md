@@ -32,7 +32,7 @@ Assistant.
 
 <p class="button-row" align="center">
   <esp-web-install-button
-    manifest="bed-presence-mk1/latest/bed-presence-mk1.manifest.json"
+    manifest="../bed-presence-mk1/latest/bed-presence-mk1.manifest.json"
   >
     <button slot="activate" class="md-button md-button--primary">
       Connect
@@ -51,13 +51,10 @@ Assistant.
 
 <!-- Update manifest based on selected device -->
 <script>
-  const manifestBase = "https://github.com/ElevatedSensors";
-  const manifestDir = "releases/latest/download";
-
   document.querySelectorAll('input[name="deviceType"]').forEach(radio =>
     radio.addEventListener("change", () => {
       const button = document.querySelector('esp-web-install-button');
-      button.manifest = `${radio.value}/latest/${radio.value}.manifest.json`;
+      button.manifest = `../${radio.value}/latest/${radio.value}.manifest.json`;
     }
   ));
 </script>
