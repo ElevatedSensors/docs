@@ -1,0 +1,25 @@
+{
+  "name": "ElevatedSensors.BedPresenceMk1",
+  "version": "test-0.12",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "path": "bed-presence-esp32c3.ota.bin",
+        "md5": "53c6b90d8b9ca0c11ecf3f2c5a3d932c",
+        "sha256": "652f91ce58ab98c48676f04720a6fa42271644c16926ab6614084a77086bbaf9",
+        "release_url": "https://github.com/ElevatedSensors/bed-presence-mk1/releases/tag/test-0.12"
+      },
+      "parts": [
+        {
+          "path": "bed-presence-esp32c3.factory.bin",
+          "offset": 0,
+          "md5": "8448352d58771eb8667396cd07b9fc5e",
+          "sha256": "16779be8cafff96b0556414ec07cb654d44c19b8138b888b70e760a843cd29ef"
+        }
+      ]
+    }
+  ]
+}
