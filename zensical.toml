@@ -415,7 +415,7 @@ drawer_icon = "assets/images/icon.png"
 site_title = "Elevated Sensors Documentation"
 
 # we override 'block/extrahead' to embed chatbot on all pages
-chatbot_js = "//code.tidio.co/tbjjwz3wix8mzuskyjwjdtcvxvgz8nry.js"
+#chatbot_js = "//code.tidio.co/tbjjwz3wix8mzuskyjwjdtcvxvgz8nry.js"
 
 [[project.extra.social]]
 icon = "fontawesome/solid/envelope"

@@ -57,6 +57,7 @@ all Elevated Sensors devices.
 ## Help
 <div class="grid cards" markdown>
 
+<!--
 -   :fontawesome-regular-message:{ .lg .middle } __Chat with Lyro__
 
     ---
@@ -65,7 +66,7 @@ all Elevated Sensors devices.
 	</a>
 	from our documentation, setup guides, and troubleshooting steps. If Lyro can't help, the
 	conversation can be handed off to a human.
-
+-->
 
 -   :fontawesome-brands-discord:{ .lg .middle } __Join the Discord Community__
 
