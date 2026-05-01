@@ -1,6 +1,7 @@
 {
+  "_note": "LEGACY BRIDGE: Using 2026.4.3 to allow updates to v2.0.0 release",
   "name": "ElevatedSensors.BedPresenceMk1",
-  "version": "v2.0.0",
+  "version": "2026.4.3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -10,7 +11,7 @@
         "path": "firmware/bed-presence-mk1/v2.0.0/bed-presence-esp32c3.ota.bin",
         "md5": "b74b34474b1d537e6fbbcfbf9a3262be",
         "sha256": "261895fb43a0d29e7918044d66147787017c61306ed60804ece08071fe00ff5c",
-        "summary": "Built on ESPHome 2026.4.3 for better mesh WiFi, reliability improvements, and easier setup.",
+        "summary": "Bridge Update: Migrating to v2.0.0+ infrastructure and ESPHome 2026.4.3. Includes better mesh WiFi and reliability improvements",
         "release_url": "https://github.com/ElevatedSensors/bed-presence-mk1/releases/tag/v2.0.0"
       },
       "parts": [
