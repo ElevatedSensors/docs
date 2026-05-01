@@ -1,0 +1,26 @@
+{
+  "name": "ElevatedSensors.BedPresenceMk1",
+  "version": "v2.0.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "path": "firmware/bed-presence-mk1/v2.0.0/bed-presence-esp32c3.ota.bin",
+        "md5": "b74b34474b1d537e6fbbcfbf9a3262be",
+        "sha256": "261895fb43a0d29e7918044d66147787017c61306ed60804ece08071fe00ff5c",
+        "summary": "Built on ESPHome 2026.4.3 for better mesh WiFi, reliability improvements, and easier setup.",
+        "release_url": "https://github.com/ElevatedSensors/bed-presence-mk1/releases/tag/v2.0.0"
+      },
+      "parts": [
+        {
+          "path": "firmware/bed-presence-mk1/v2.0.0/bed-presence-esp32c3.factory.bin",
+          "offset": 0,
+          "md5": "aa0e3226d9bc886d2b86f228e7ddaec5",
+          "sha256": "7add7a986be74f32e6851aad7feb53df1e54ca1dfacb89e28b945348fc105083"
+        }
+      ]
+    }
+  ]
+}
