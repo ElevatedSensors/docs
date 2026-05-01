@@ -321,7 +321,7 @@ private double round2(final double value) {
 }
 
 private void syncDriverVersion() {
-    final String DRIVER_VERSION = "test-0.22"
+    final String DRIVER_VERSION = "v2.0.0"
 
     final String stored = device.getDataValue("Driver Version")
     if (stored != DRIVER_VERSION) {
