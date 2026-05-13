@@ -39,7 +39,7 @@ docs/
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate  # On Windows: .venv/Scripts/activate
-   pip install zensical
+   pip install -r requirements.txt
    ```
 1. Run the preview server
    ```bash

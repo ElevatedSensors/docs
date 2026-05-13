@@ -20,11 +20,3 @@ Most users can safely skip this page.
 ## Pinout
 
 Bed Presence Mk1 does not expose any user accesible pins.
-
-## Compliance Notes
-
-This product is not certified as a complete device under FCC, CE, or other regulatory frameworks.
-
-It contains an ESP32-C3 module that is FCC certified under **FCC ID: 2AC7Z-ESPC3WROOM**.
-
-Use of this product, especially in modified or commercial deployments, may require additional compliance evaluation depending on jurisdiction and application.
