@@ -13,15 +13,15 @@ title: Tech Specs
 - **HS Code**: 8543.70
 
 ## Wireless & Radio Characteristics
-| Feature                      | Specification               |
-| :--------------------------- | :-------------------------- |
-| Radio Module                 | Espressif ESP32-C3-WROOM-02 |
-| Wi-Fi Protocols              | IEEE 802.11 b/g/n (2.4 GHz) |
-| Wi-Fi Frequency Range        | 2412 - 2484 MHz             |
-| Wi-Fi Max Transmit Power     | +20.5 dBm                   |
-| Bluetooth Protocols          | Bluetooth LE 5.0            |
-| Bluetooth Frequency Range    | 2402 - 2480 MHz             |
-| Bluetooth Max Transmit Power | +9.0 dBm                    |
+| Feature                   | Specification               |
+| :------------------------ | :-------------------------- |
+| Radio Module              | Espressif ESP32-C3-WROOM-02 |
+| Wi-Fi Protocols           | IEEE 802.11 b/g/n (2.4 GHz) |
+| Wi-Fi Frequency Range     | 2412 - 2484 MHz             |
+| Wi-Fi Tx Power (Max)      | +20.5 dBm                   |
+| Bluetooth Protocols       | Bluetooth LE 5.0            |
+| Bluetooth Frequency Range | 2402 - 2480 MHz             |
+| Bluetooth Tx Power (Max)  | +9.0 dBm                    |
 
 ## Electrical & Physical
 - **Power Input**: 5.0V DC via USB-C
