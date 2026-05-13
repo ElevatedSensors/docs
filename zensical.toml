@@ -59,6 +59,7 @@ nav = [
             "products/bed-presence-mk1/faq.md",
             "products/bed-presence-mk1/sensor-details.md",
             "products/bed-presence-mk1/hardware-reference.md",
+            "products/bed-presence-mk1/tech-specs.md",
         ]},
     ]},
     # {"Integrations" = [
