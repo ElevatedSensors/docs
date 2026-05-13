@@ -13,13 +13,15 @@ title: Tech Specs
 - **HS Code**: 8543.70
 
 ## Wireless & Radio Characteristics
-| Feature                          | Specification                  |
-| :------------------------------- | :----------------------------- |
-| Radio Module                     | Espressif ESP32-C3-WROOM-02    |
-| WiFi Protocols                   | IEEE 802.11 b/g/n (2.4 GHz)    |
-| WiFi Center Frequency Range      | 2412 - 2484 MHz                |
-| Bluetooth Protocols              | Bluetooth Low Energy (BLE 5.0) |
-| Bluetooth Center Frequency Range | 2402 - 2480 MHz                |
+| Feature                   | Specification               |
+| :------------------------ | :-------------------------- |
+| Radio Module              | Espressif ESP32-C3-WROOM-02 |
+| Wi-Fi Protocols           | IEEE 802.11 b/g/n (2.4 GHz) |
+| Wi-Fi Frequency Range     | 2412 - 2484 MHz             |
+| Wi-Fi Tx Power (Max)      | +20.5 dBm                   |
+| Bluetooth Protocols       | Bluetooth LE 5.0            |
+| Bluetooth Frequency Range | 2402 - 2480 MHz             |
+| Bluetooth Tx Power (Max)  | +9.0 dBm                    |
 
 ## Electrical & Physical
 - **Power Input**: 5.0V DC via USB-C
@@ -28,9 +30,10 @@ title: Tech Specs
 - **Operating Temp**: 0°C to 50°C
 
 ## Regulatory Compliance
-- **Contains FCC ID**: 2AC7Z-ESPC3WROOM
-    - This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.
-    - The integrated module has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation.
+
+- **Regulatory Status**: This device is a host assembly that incorporates an FCC-certified radio module (**Contains FCC ID: 2AC7Z-ESPC3WROOM**). While the radio module is certified under its FCC grant conditions, the complete integrated product has not undergone formal FCC Part 15 Subpart B testing as an unintentional radiator.
+- **FCC Interference Statement**: This device contains a radio transmitter module that has been authorized under FCC rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.
+- **Responsibility Notice**: Modification of this device or its use in certain commercial applications may void the user’s authority to operate the equipment and may require further compliance evaluation by the end-user or integrator.
 - **Manufacturer**:
     Elevated Sensors, LLC<br>
     6660 Delmonico Dr, Suite D #322<br>
